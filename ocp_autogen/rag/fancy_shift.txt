@@ -1,0 +1,2 @@
+Q: What is fancy shift?
+A: I don't know. Probably something fancy related to OpenShift?

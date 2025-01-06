@@ -1,0 +1,21 @@
+[project]
+name = "ols-autogen"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "onmete", email = "ondrejmetelka@outlook.com"},
+]
+dependencies = [
+    "autogen[retrievechat]>=0.3.1",
+    "flaml[automl]>=2.3.1",
+    "matplotlib>=3.9.2",
+    "numpy>=1.26.4",
+    "IPython>=8.29.0",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
